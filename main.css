@@ -41,7 +41,7 @@ div.hexagon-parent div.lower {
 }
 
 div.hexagon-parent div.upper.right {
-  transform: skew(45deg) translateX(calc(var(--base-width) / 2));
+  transform: translateX(calc(var(--base-width) * 0.75));
 }
 div.hexagon-parent div.upper.left {
   transform: skew(-45deg)
@@ -50,5 +50,5 @@ div.hexagon-parent div.lower.right {
   transform: skew(-45deg) translateX(calc(var(--base-width) / 2));
 }
 div.hexagon-parent div.lower.left {
-  transform: skew(45deg)
+  transform: translateX(calc(var(--base-width) / 4 * -1));
 }
